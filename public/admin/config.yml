@@ -19,6 +19,7 @@ collections:
     folder: 'src/data/games'
     create: true
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    identifier_field: name
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime'}
@@ -32,6 +33,7 @@ collections:
     folder: 'src/data/apps'
     create: true
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
+    identifier_field: name
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
