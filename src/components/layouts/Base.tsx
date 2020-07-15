@@ -16,6 +16,7 @@ function BaseLayout(props) {
           content="initial-scale=1.0, width=device-width"
           key="viewport"
         />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
       <BaseHeader />
       <section>
