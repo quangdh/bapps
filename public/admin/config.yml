@@ -20,23 +20,23 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
     fields:
-      - { label: 'Name', name: 'name', widget: 'string', required: true }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', required: true }
-      - { label: 'Featured Image', name: 'thumbnail', widget: 'image', required: true }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime'}
+      - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
       - { label: 'IOS Link', name: 'ios', widget: 'string' }
       - { label: 'Android Link', name: 'android', widget: 'string' }
       - { label: 'Description', name: 'short_description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: true }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: 'Apps'
     name: 'apps'
     folder: 'src/data/apps'
     create: true
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
     fields:
-      - { label: 'Name', name: 'name', widget: 'string', required: true }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', required: true }
-      - { label: 'Featured Image', name: 'thumbnail', widget: 'image', required: true }
+      - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
       - { label: 'IOS Link', name: 'ios', widget: 'string' }
       - { label: 'Android Link', name: 'android', widget: 'string' }
       - { label: 'Description', name: 'short_description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: true }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
