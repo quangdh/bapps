@@ -6,7 +6,7 @@ import styles from "./styles/Base.module.scss";
 
 function BaseLayout(props) {
   return (
-    <React.Fragment>
+    <>
       <Head>
         <title>Home | BApps Games Studio.</title>
         <meta name="description" content="Independant Video Games / Mobile Application / Innovative Technologies creators" />
@@ -18,7 +18,9 @@ function BaseLayout(props) {
         />
       </Head>
       <BaseHeader />
-      <main>{props.children}</main>
+      <section>
+        <main>{props.children}</main>
+      </section>
       <footer className="text-muted">
         <Container>
           <p className="float-right">
@@ -36,7 +38,7 @@ function BaseLayout(props) {
           </p>
         </Container>
       </footer>
-    </React.Fragment>
+    </>
   );
 }
 
