@@ -47,7 +47,7 @@ export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
       games: getListGame(),
-      apps: getListApp(),
+      apps: []//getListApp(),
     },
   }
 };
