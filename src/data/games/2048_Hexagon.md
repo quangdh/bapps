@@ -3,6 +3,7 @@ name: '2048 Hexagon'
 thumbnail: https://s3-ap-southeast-1.amazonaws.com/bapps.info/images/logo/logo_2048_hexegon.jpg
 ios: https://apps.apple.com/us/app/honey-bee-2048-hexagon/id1498736372
 android: https://play.google.com/store/apps/details?id=com.danbistd.games.hexagon2048
+short_description: This is the hexagonal version of 2048. It is a fun, addictive and simple puzzle game. Get to the 2048 tile, and reach a high score!
 ---
 
 * 2048 HEXAGON - A Puzzle Game *
