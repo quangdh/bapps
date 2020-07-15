@@ -7,4 +7,10 @@ module.exports = {
     });
     return config;
   },
+  exportPathMap: function () {
+    return {
+      "/": { page: "/home" },
+      "/privacy_policy.html": { page: "/policy" }
+    };
+  },
 };
