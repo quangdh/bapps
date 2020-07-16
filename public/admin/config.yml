@@ -9,7 +9,7 @@ collections:
     files:
     - label: "Privacy Policy"
       name: "privacy_policy"
-      file: "src/data/policy.md"
+      file: "src/data/pages/policy.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -21,12 +21,12 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
     identifier_field: name
     fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
-      - { label: 'IOS Link', name: 'ios', widget: 'string' }
-      - { label: 'Android Link', name: 'android', widget: 'string' }
-      - { label: 'Description', name: 'short_description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Featured Image', name: 'thumbnail', widget: 'image', required: false }
+      - { label: 'IOS Link', name: 'ios', widget: 'string', required: false }
+      - { label: 'Android Link', name: 'android', widget: 'string', required: false }
+      - { label: 'Description', name: 'short_description', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
   - label: 'Apps'
     name: 'apps'
     folder: 'src/data/apps'
@@ -34,9 +34,9 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}_{{slug}}'
     identifier_field: name
     fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Featured Image', name: 'thumbnail', widget: 'image' }
-      - { label: 'IOS Link', name: 'ios', widget: 'string' }
-      - { label: 'Android Link', name: 'android', widget: 'string' }
-      - { label: 'Description', name: 'short_description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Name', name: 'name', widget: 'string', required: true }
+      - { label: 'Featured Image', name: 'thumbnail', widget: 'image', required: false }
+      - { label: 'IOS Link', name: 'ios', widget: 'string', required: false }
+      - { label: 'Android Link', name: 'android', widget: 'string', required: false }
+      - { label: 'Description', name: 'short_description', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
